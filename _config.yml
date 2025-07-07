@@ -1,4 +1,32 @@
-title : Shavindi Handagama
+title: Shavindi Handagama | Data Scientist Portfolio
+email: shavindi.handagama@gmail.com # Replace with your actual email
+description: >- # this means to ignore newlines until "baseurl:"
+  A data science portfolio by Shavindi Handagama, featuring projects in machine learning, data analysis, and predictive modeling.
+  Skilled in Python, R, SQL, and tools like Power BI and Shiny. 
+  Passionate about solving real-world problems with data and continuously building practical, impactful solutions.
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/ (if your repo is shavindihandagama.github.io/portfolio)
+url: "https://shavindihandagama.github.io" # the base hostname & protocol for your site
 
-show downloads : true
-theme : jekyll-theme-minimal
+# Theme settings (if you're using a Jekyll theme like Minima, Just the Docs, etc.)
+# If you're using a custom theme or no theme, you might remove/adjust this.
+# For a simple custom look, you might stick to a basic theme or build from scratch.
+# theme: orderedlist # If you are using the 'orderedlist' theme
+# remote_theme: orderedlist # Use this if you are using a remote theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/ # Clean URLs for pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Custom variables (optional, but useful for reusability)
+github_username: shavindihb # Your GitHub username
+linkedin_url: https://www.linkedin.com/in/shavindihandagama/ # Replace with your LinkedIn URL
+kaggle_url: https://www.kaggle.com/hrkshandagamabandara # Optional: Replace with your Kaggle URL
